@@ -1,9 +1,9 @@
 import os
 import sys
 
-# Check if the correct number of command-line arguments is provided
+# Check if the correct number of command-line arguments is provided. Directory path is the output directory of the overall script.
 if len(sys.argv) != 2:
-    print("Usage: python your_script.py directory_path")
+    print("Usage: python missing_taxid_finder.py directory_path")
     sys.exit(1)
 
 directory_path = sys.argv[1]  # Get the directory path from the command-line argument
