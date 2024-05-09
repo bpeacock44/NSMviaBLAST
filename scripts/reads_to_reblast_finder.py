@@ -30,7 +30,7 @@ def process_blast_output(input_file, threshold, output_file):
 
 if __name__ == '__main__':
     if len(sys.argv) != 4:
-        print("Usage: python script.py input_file threshold output_file")
+        print("Usage: python reads_to_reblast_finder.py input_file threshold output_file")
         sys.exit(1)
 
     input_file = sys.argv[1]
